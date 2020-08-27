@@ -1,0 +1,21 @@
+{
+  "name": "reestyle/peavents",
+  "description": "Basic event handler",
+  "minimum-stability": "stable",
+  "license": "Unlicense",
+  "version": "0.1-dev",
+  "authors": [
+    {
+      "name": "Rafael den Heijer",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Peavent\\": "src/"
+    }
+  }
+}
