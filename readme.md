@@ -1,8 +1,20 @@
 # Peavents
 
-Basic event system.
+## Introduction
+<blockquote>
+Peavents stands for PHP events - with a twist.
+</blockquote>
 
-Basic usage:
+Peavents is a basic event system. Sort of like a hook system, but slightly different.
+
+## Installation
+Use composer:
+
+`$ composer require reestyle/peavents`
+
+Remember to use the autoloader.
+
+## Basic usage:
 <pre>
     $registry = \Peavents\Registry::instance();
     
