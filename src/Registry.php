@@ -5,6 +5,11 @@ namespace Peavent;
 use Exception;
 use ArrayObject;
 
+/**
+ * Class Registry
+ *
+ * @package Peavent
+ */
 class Registry extends ArrayObject
 {
 
@@ -48,6 +53,7 @@ class Registry extends ArrayObject
 	 * @param string $ident
 	 *
 	 * @return Event
+	 * @throws Exception
 	 */
 	public function get(string $ident): Event
 	{

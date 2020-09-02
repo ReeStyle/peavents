@@ -1,7 +1,7 @@
 {
   "name": "reestyle/peavents",
   "description": "Basic event handler",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "Unlicense",
   "version": "0.1-dev",
   "time": "2020-08-09",
